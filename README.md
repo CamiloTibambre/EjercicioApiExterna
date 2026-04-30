@@ -12,6 +12,7 @@ Servidor backend en **Node.js + Express** que consume la API pública [REST Coun
 - Express
 - Axios
 - dotenv
+- body-parser
 
 ## Instalación
 
@@ -19,6 +20,7 @@ Servidor backend en **Node.js + Express** que consume la API pública [REST Coun
 git clone <url-del-repositorio>
 cd rest-countries-api
 npm install
+npm install body-parser
 ```
 
 Crear un archivo `.env` en la raíz (ver `.env.example`):
